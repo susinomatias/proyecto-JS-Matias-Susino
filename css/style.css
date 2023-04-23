@@ -1,0 +1,59 @@
+/*VARIABLES*/
+@font-face {
+  font-family: ArnoldeScript_PERSONAL_USE_ONLY;
+  src: url(ArnoldeScript_PERSONAL_USE_ONLY.otf);
+}
+/*-------------------------------------------------------*/
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-height: 100%;
+}
+body .estilo-h1 {
+  font-family: ArnoldeScript_PERSONAL_USE_ONLY;
+  text-align: center;
+  font-size: 50px;
+}
+
+nav {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+footer {
+  background-color: black;
+  margin-top: auto;
+}
+footer .estilo-u1 {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  padding: 40px;
+}
+footer .estilo-li1 {
+  padding: 1%;
+}
+
+header {
+  padding: 2%;
+}
+header .estilo-header {
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+}
+
+section .estilo-psection {
+  background: linear-gradient(rgb(255, 251, 0), rgb(255, 255, 255));
+  text-align: center;
+}
+section h2 {
+  text-align: center;
+  font-family: ArnoldeScript_PERSONAL_USE_ONLY;
+}/*# sourceMappingURL=style.css.map */

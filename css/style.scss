@@ -1,0 +1,82 @@
+/*VARIABLES*/
+$color-principal: rgb(255, 255, 0);
+$color-fondo: rgb(255, 255, 255);
+$color-letras: rgb(0, 0, 0);
+$tamaño-letras: 35px;
+
+
+@font-face {
+    font-family: ArnoldeScript_PERSONAL_USE_ONLY;
+    src: url(ArnoldeScript_PERSONAL_USE_ONLY.otf);
+}
+
+/*-------------------------------------------------------*/
+
+html {
+    height: 100%;
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 100%;
+
+    .estilo-h1 {
+        font-family: ArnoldeScript_PERSONAL_USE_ONLY;
+        text-align: center;
+        font-size: 50px;
+    }
+
+}
+
+nav {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+footer {
+    background-color: black;
+    margin-top: auto;
+
+    .estilo-u1 {
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .estilo-li1 {
+        padding: 1%;
+
+    }
+}
+
+header {
+    padding: 2%;
+
+    .estilo-header {
+
+        border-bottom: 1px solid black;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+
+section {
+
+    .estilo-psection {
+        background: linear-gradient(rgb(255, 251, 0), rgb(255, 255, 255));
+        text-align: center;
+
+
+    }
+
+    h2 {
+        text-align: center;
+        font-family: ArnoldeScript_PERSONAL_USE_ONLY;
+    }
+}
